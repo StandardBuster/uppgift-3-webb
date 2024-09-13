@@ -1,0 +1,86 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+body {
+    margin: 0;
+
+    font-size: 1.6rem;
+
+    font-family: Helvetica;
+
+}
+
+
+header {
+    background-color: rgb(0, 0, 0);
+    padding-block: 2rem;
+    padding-inline: 1rem;
+}
+
+section {
+    background-color: goldenrod;
+}
+
+.primary-navigation {
+       display: flex;
+
+       gap: 1rem;
+
+    list-style: none;
+        color: brown;
+}
+
+
+
+
+.column-style{
+    display: flex;
+    flex-direction: row;
+
+}
+
+img {
+    display: block;
+    max-width: 35%;
+    object-fit: cover;
+    font-style: italic;
+    color: black;
+}
+
+Zeep-Zorp {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+
+    gap: 1rem;
+}
+
+a:link {
+    color:chocolate;
+    text-underline-offset: 0.6em;
+    text-decoration-color: transparent;
+
+
+    transition: 350ms ease-in-out;
+}
+
+a:visited {
+    color: maroon;
+
+}
+
+a:hover {
+    color:blue;
+    text-decoration: none;
+    text-underline-offset: 0.2em;
+    text-decoration-color: red;
+}
+
+a:active {
+    color:black;
+}
+
